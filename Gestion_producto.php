@@ -5,42 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=º, initial-scale=1.0">
     <title>Panaderia Bali</title>
-    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
 </head>
 <body>
-	<header>
-		<div class="menu">
-			<div class="logo">
-				<h1>Panaderia Bali</h1>
-			</div>
-			<div class="cont-menu">
-				<nav>
-					<ul>
-						<a href="index.html"><li>Inicio</li></a>
-						<li>
-							Productos
-							<ul>
-								<a href="Panes.html"><li id="border">Panes</li></a>
-								<a href="Postres.html"><li>Postres</li></a>
-							</ul>
-						</li>
-						<a href="reporte.html"><li>Reportes</li></a>
-						<a href="Login.html"><li>Inicia Sesión</li></a>
-						<a href="Sing-up.html"><li>Registrate</li></a>
-						<li>
-							Administrador
-							<ul>
-								<a href="Gestion_cliente.html"><li id="border">Gestión de Clientes</li></a>
-								<a href="Gestion_ventas.html"><li id="border">Gestión de ventas</li></a>
-								<a href="Gestion_producto.html"><li>Gestión de productos</li></a>
-							</ul>
-						</li>
-						<a href="compra.html"><li><img src="img/icons/cart-shopping.png" alt=""></li></a>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
+    <?php require 'partials/header.php'?>
 
 	<div class="cont-form">
         
